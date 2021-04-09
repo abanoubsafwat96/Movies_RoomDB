@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/movie_poster"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:scaleType = "fitXY"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:layout_marginStart="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/movie_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#B71C1C"
+                        android:textSize="21sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/movie_genres"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/vote_average"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/movie_release_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#000000" />
+
+                    <ToggleButton
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_margin="15dp"
+                        android:id="@+id/myToggleButton"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="32dp"
+                        android:clickable="true"
+                        android:textOn=""
+                        android:textOff=""/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/overview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="7dp"
+                android:text="@string/overview"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#D32F2F" />
+
+            <TextView
+                android:id="@+id/movie_overview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#BDBDBD"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/movie_backdrop_path"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:layout_marginTop="7dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

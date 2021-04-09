@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/now_playing"
+        android:icon="@drawable/ic_baseline_play_circle_outline_24"
+        android:title="Now Playing" />
+
+    <item
+        android:id="@+id/top_rated"
+        android:icon="@drawable/ic_baseline_rate_review_24"
+        android:title="Top Rated" />
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="Search" />
+
+    <item
+        android:id="@+id/favourites"
+        android:icon="@drawable/ic_baseline_star_border_24"
+        android:title="Favourites" />
+
+</menu>

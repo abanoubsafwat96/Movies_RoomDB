@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Movies</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="title_activity_detailed">Movie Details</string>
+    <string name="title_activity_top_rated_">Top-Rated Movies</string>
+    <string name="title_activity_favorites">Favourites</string>
+    <string name="title_activity_favorites_detailed">Movie Details</string>
+
+    <string name="overview">Overview:</string>
+    <string name="trailers">Trailers:</string>
+    <string name="reviews">Reviews:</string>
+    <string name="offline">You are offline: Check your Connection</string>
+    <string name="online">You are online: Loading data</string>
+    <string name="refresh">Refresh</string>
+    <string name="REMOVED_FROM_FAVOURITES">REMOVED FROM FAVOURITES</string>
+    <string name="NOT_REMOVED_FROM_FAVOURITES">NOT REMOVED FROM FAVOURITES</string>
+    <string name="MARKING_FAILED">MARKING FAILED</string>
+    <string name="MARKED_AS_FAVOURITES">MARKED AS FAVOURITES</string>
+    <string name="serverError">Server Error</string>
+    <string name="loading">Loading, Please wait...</string>
+</resources>
